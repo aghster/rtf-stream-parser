@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "allowJs": false,
-        "module": "commonjs",
+        "module": "ESNext",
         "moduleResolution": "Node",
         "noImplicitAny": true,
         "noImplicitThis": true,
@@ -17,5 +17,6 @@
         "./src/**/*",
         "./test/**/*",
         "./cli/**/*",
-    ]
+    ],
+    "lib": ["ESNext", "DOM"]
 }
